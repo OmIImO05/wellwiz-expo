@@ -18,12 +18,12 @@ st.title("Split-panel Map")
 with st.expander("See source code"):
     with st.echo():
         m = leafmap.Map()
-        before = "ESA WorldCover 2020 S2 FCC"
-        after = "ESA WorldCover 2020"
+        before = "https://github.com/OmIImO05/wellwiz/blob/main/csv/Map1.png?raw=true"
+        after = "https://github.com/OmIImO05/wellwiz/blob/main/csv/Map2.png?raw=true"
         m.split_map(
             left_layer=before, right_layer=after
         )
         m.center = (35.8, -86.0)
-        m.zoom = 7
+        m.zoom = 2
 
 m.to_streamlit(height=700)
