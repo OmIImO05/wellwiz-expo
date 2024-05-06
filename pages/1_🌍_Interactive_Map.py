@@ -6,6 +6,7 @@ A Streamlit map template
 <https://homepy-5jkvf5cmrtwn7hpdntlxap.streamlit.app/>
 """
 
+
 st.sidebar.title("About")
 st.sidebar.info(markdown)
 logo = "https://cdn.dribbble.com/users/282075/screenshots/2669824/media/3d6b4f00f002736d03d0fb2fae793d84.gif"
