@@ -1,4 +1,5 @@
 import streamlit as st
+import wellwiz
 import wellwiz.folium as wellwiz
 
 st.set_page_config(layout="wide")
