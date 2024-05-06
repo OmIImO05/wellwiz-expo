@@ -1,5 +1,5 @@
 import streamlit as st
-import leafmap.foliumap as leafmap
+import wellwiz.folium as wellwiz
 
 st.set_page_config(layout="wide")
 
@@ -35,6 +35,6 @@ markdown = """
 
 st.markdown(markdown)
 
-m = leafmap.Map(minimap_control=True)
-m.add_basemap("OpenTopoMap")
+m = wellwiz.Map(minimap_control=True)
+m.add_basemap('OpenTopoMap')
 m.to_streamlit(height=500)
