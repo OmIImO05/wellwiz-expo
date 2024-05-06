@@ -33,6 +33,7 @@ markdown = """
 
 """
 
+
 st.markdown(markdown)
 
 m = wellwiz.Map(minimap_control=True)
