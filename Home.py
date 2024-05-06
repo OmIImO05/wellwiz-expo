@@ -1,6 +1,5 @@
 import streamlit as st
-import wellwiz
-import wellwiz.folium as wellwiz
+import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
